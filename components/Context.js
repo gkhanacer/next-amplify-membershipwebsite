@@ -2,7 +2,7 @@ import { Flex, View } from "@aws-amplify/ui-react";
 import { Footer, Hero, Persuade, Testimonies } from "../ui-components";
 
 
-const DefaulHeader = () => {
+const Context = () => {
     
     return (
       <>
@@ -22,4 +22,4 @@ const DefaulHeader = () => {
       );
 };
 
-export default DefaulHeader;
+export default Context;

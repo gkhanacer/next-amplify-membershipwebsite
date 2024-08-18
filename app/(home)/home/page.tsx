@@ -4,7 +4,7 @@
 
 import React from "react";
 import { Authenticator } from "@aws-amplify/ui-react";
-import DefaultHeader from "../../../components/DefaultHeader"
+import Context from "../../../components/Context"
 import Layout from "../../../components/Layout";
 
 
@@ -16,7 +16,7 @@ const Home = () => {
         authText="Sign Up"
         username="none"
       >
-          <DefaultHeader />
+          <Context />
       </Layout>
     // </Authenticator>
   );

@@ -11,4 +11,4 @@ type Testimonial @model @auth(rules: [{allow: public}]) {
   name: String
   avatar: String
   testimony: String
-}
+} 
