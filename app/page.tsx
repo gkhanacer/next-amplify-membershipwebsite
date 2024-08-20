@@ -17,7 +17,3 @@ export default function page() {
       <Home/>
   );
 }
-
-// "price_1Ppcl8DYtTQTKrS7GbBO7qrj"
-// publish_key: pk_test_51PpcTQDYtTQTKrS7GZl6WmQxKfo8Ho7rxPimfutYaMeV2L38TOncaP6vbPC4Hv6ltZSzMeF3aw45g5hTmAYAqcwa00UlFIydwu
-// secret key: sk_test_51PpcTQDYtTQTKrS7nn4FrztJBLvBCXo9FgPyahYxb0jQVrE6JWBE6DnI9SPj4UUPydMdsnwvgPtsVGpd7NnpNRyC003RYqjLYR
