@@ -2,12 +2,12 @@ import { Flex, View } from "@aws-amplify/ui-react";
 import { Footer, Hero, Persuade, Testimonies } from "../ui-components";
 
 
-const Context = () => {
+const Context = ({handleClick}) => {
     
     return (
       <>
         <View marginBottom="135px">
-          <Hero handleClick={() => {}} />
+          <Hero handleClick={handleClick} />
         </View>
         <View>
           <Testimonies />

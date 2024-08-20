@@ -1,5 +1,19 @@
 {
   "api": {
+    "api8ee879a4": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ozimegofrontendgen1640b5f4d"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
     "ozimegofrontendgen1": {
       "dependsOn": [],
       "output": {
@@ -48,6 +62,48 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
+    }
+  },
+  "function": {
+    "ozimegofrontendgen1640b5f4d": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "ozimegofrontendgen1"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_ozimegofrontendgen1640b5f4d_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ozimegofrontendgen1640b5f4d"
+        }
+      ]
+    },
+    "AMPLIFY_function_ozimegofrontendgen1640b5f4d_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ozimegofrontendgen1640b5f4d"
+        }
+      ]
+    },
+    "AMPLIFY_function_ozimegofrontendgen1640b5f4d_secretsPathAmplifyAppId": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ozimegofrontendgen1640b5f4d"
+        }
+      ]
     }
   }
 }

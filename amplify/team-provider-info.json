@@ -14,6 +14,17 @@
     "categories": {
       "auth": {
         "ozimegofrontendgen1": {}
+      },
+      "function": {
+        "ozimegofrontendgen1640b5f4d": {
+          "secretsPathAmplifyAppId": "d26j9vn0wrlbgt",
+          "deploymentBucketName": "amplify-ozimegofrontendgen1-staging-00dcd-deployment",
+          "s3Key": "amplify-builds/ozimegofrontendgen1640b5f4d-6a6e6d546a6d50734368-build.zip"
+        }
+      },
+      "api": {
+        "ozimegofrontendgen1": {},
+        "api8ee879a4": {}
       }
     }
   }

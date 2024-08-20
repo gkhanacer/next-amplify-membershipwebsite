@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/webhooks": {
+      "name": "/webhooks",
+      "lambdaFunction": "ozimegofrontendgen1640b5f4d",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
